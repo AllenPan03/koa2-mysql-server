@@ -1,6 +1,6 @@
 {
     "apps": {
-        "name": "node.activity",
+        "name": "koa2-mysql-server",
         "script": "./index.js",
         "watch": true,
         "ignore_watch": [
@@ -27,7 +27,7 @@
         },
         "env_prd": {
             "NODE_ENV": "prd",
-            "interface": "http://activity.jinlins.com"
+            "interface": "http://koa.jinlins.com"
         }
     }
 }

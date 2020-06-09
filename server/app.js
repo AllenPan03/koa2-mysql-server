@@ -10,6 +10,6 @@ app.use(cross()) // 跨域请求头
 app.use(router.routes()).use(router.allowedMethods()) // 加载路由中间件
 
 function listen() {
-    app.listen(pkg.port, () => console.log(`start - up success, listening port ${pkg.port} `.green))
+    app.listen(pkg.port, () => console.log(`start - up success, listening port ${pkg.port} `))
 }
 listen();

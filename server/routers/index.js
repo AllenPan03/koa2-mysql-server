@@ -4,12 +4,10 @@
 
 const router = new require('koa-router')()
 const home = require('./home')
-const share = require("./share")
-const prize = require("./prize")
+const user = require("./user")
 
 
 router.use('', home.routes())
-router.use('/share', share.routes())
-router.use('/prize', prize.routes())
+router.use('/user', user.routes())
 
 module.exports = router

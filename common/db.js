@@ -3,13 +3,13 @@ const { debug } = require("./config")
 const mysqlConfig = debug ? {
     host: '127.0.0.1',   // 数据库地址
     user: 'root',    // 数据库用户
-    password: 'password',   // 数据库密码
-    database: 'fed_prize'  // 选中数据库
+    password: '123456',   // 数据库密码
+    database: 'fed_test'  // 选中数据库
 } : {
         host: '172.20.100.10',   // 数据库地址
-        user: 'uatfed_prize',    // 数据库用户
-        password: 'UATfed_prize123!',   // 数据库密码
-        database: 'fed_prize'  // 选中数据库
+        user: 'root',    // 数据库用户
+        password: 'fed_test123!',   // 数据库密码
+        database: 'fed_test'  // 选中数据库
     }
 // 创建数据池
 const pool = mysql.createPool(mysqlConfig)

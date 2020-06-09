@@ -1,19 +1,8 @@
 {
-  "name": "node.convert",
-  "author": "jinlins",
+  "name": "koa2-mysql-server",
+  "author": "AllenPan03",
   "debugPort": "8076",
   "port": "3000",
-  "deploy": {
-    "prd": {
-      "url": "http://docx.jinlins.com.cn"
-    },
-    "uat": {
-      "url": "http://docx.jinlins.com"
-    },
-    "fat": {
-      "url": "http://docx.fat.jinlins.work"
-    }
-  },
   "private": true,
   "version": "0.0.1",
   "scripts": {
