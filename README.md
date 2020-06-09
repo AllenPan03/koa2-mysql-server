@@ -1,4 +1,4 @@
-# activity.jinlins
+# koa2-mysql-server
 
 #### 介绍
 活动专用仓储
