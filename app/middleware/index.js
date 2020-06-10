@@ -1,5 +1,5 @@
-const { renderData } = require("./render")
-const { log } = require("./utils")
+const { renderData } = require("../../config/render")
+const { log } = require("../../util/utils")
 /**
  * 跨域处理
  * @example app.use(cross())

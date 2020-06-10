@@ -1,5 +1,5 @@
 const { GetUser, InsertUser } = require("../models/user")
-const { renderData } = require("../../common/render")
+const { renderData } = require("../../config/render")
 /**
  * 获取用户信息
  * @return 用户信息对象

@@ -1,4 +1,4 @@
-const { query } = require("../../common/db")
+const { query } = require("../../config/db")
 
 /**
  * 查询指定id的用户

@@ -6,7 +6,7 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "start": "node ./index",
+    "start": "node ./bin/index",
     "pm2": "pm2 startOrReload pm2.json",
     "copyStatic": "digo copyStatic"
   },
