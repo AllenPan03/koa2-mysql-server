@@ -1,7 +1,7 @@
 {
     "apps": {
         "name": "koa2-mysql-server",
-        "script": "./index.js",
+        "script": "./bin/index.js",
         "watch": true,
         "ignore_watch": [
             "node_modules",
